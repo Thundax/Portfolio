@@ -3,5 +3,5 @@ Links to all of my portfolio sites and repositories! (The ones that are public, 
 
 <h1>Projects</h1>
 <ol>
-  <li><a target="blank" alt="The studio I founded and continue to manage." href="https://mjolnirsoftware.com">Mjolnir Software (Game Studio)</a></li>
+  <li><a target="_blank" alt="The studio I founded and continue to manage." href="https://mjolnirsoftware.com">Mjolnir Software (Game Studio)</a></li>
 </ol>
