@@ -44,7 +44,7 @@ h2 {
   text-shadow: 0 0 6px #00ffea;
 }
 
-ul {
+ul, ol {
   list-style-position: inside;
   font-size: 1em;
   text-align: left;      /* force left alignment */
@@ -68,6 +68,7 @@ li p {
 
 a {
   display: inline-block; /* allows vertical margins */
+  font-size: 1em;        /* keep anchor text consistent */
   color: #00ffea;
   text-decoration: none;
   position: relative;
