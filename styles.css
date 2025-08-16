@@ -1,7 +1,7 @@
 /* Reset & basic styling */
 * {
   box-sizing: border-box;
-  margin: 20px 0; /* Add vertical margin to all elements */
+  margin-block: 20px; /* vertical spacing for all elements */
   padding: 0;
 }
 
@@ -18,7 +18,7 @@ body {
 
 .container {
   max-width: 800px;
-  text-align: center;
+  text-align: center; /* container is centered, but overridden for lists/links */
   border: 2px solid #00ffea;
   padding: 40px;
   border-radius: 15px;
@@ -41,19 +41,23 @@ h1 {
 ol {
   list-style-position: inside;
   font-size: 1.5em;
-  text-align: left; /* Align list items left */
-  padding-left: 20px; /* optional: add a bit of padding */
+  text-align: left;      /* force left alignment */
+  padding-left: 20px;    /* spacing for readability */
+  margin-left: 0;
 }
 
 li {
-  text-align: left; /* Ensure individual items are left-aligned */
+  text-align: left;      /* force left alignment */
+  margin-left: 20px;     /* indent */
 }
 
 a {
+  display: inline-block; /* makes vertical margins apply */
   color: #00ffea;
   text-decoration: none;
   position: relative;
   transition: all 0.3s ease;
+  text-align: left;      /* force link text left */
 }
 
 a::after {
