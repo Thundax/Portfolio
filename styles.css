@@ -1,7 +1,7 @@
 /* Reset & basic styling */
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 20px 0; /* Add vertical margin to all elements */
   padding: 0;
 }
 
@@ -41,6 +41,12 @@ h1 {
 ol {
   list-style-position: inside;
   font-size: 1.5em;
+  text-align: left; /* Align list items left */
+  padding-left: 20px; /* optional: add a bit of padding */
+}
+
+li {
+  text-align: left; /* Ensure individual items are left-aligned */
 }
 
 a {
