@@ -1,7 +1,7 @@
 /* Reset & basic styling */
 * {
   box-sizing: border-box;
-  margin-block: 20px; /* vertical spacing for all elements */
+  margin-block: 20px; /* vertical spacing for most elements */
   padding: 0;
 }
 
@@ -18,7 +18,7 @@ body {
 
 .container {
   max-width: 800px;
-  text-align: center; /* container is centered, but overridden for lists/links */
+  text-align: center; /* header/footer centered, lists override below */
   border: 2px solid #00ffea;
   padding: 40px;
   border-radius: 15px;
@@ -38,6 +38,12 @@ h1 {
   text-shadow: 0 0 10px #00ffea;
 }
 
+h2 {
+  margin-top: 40px;
+  font-size: 2em;
+  text-shadow: 0 0 6px #00ffea;
+}
+
 ol {
   list-style-position: inside;
   font-size: 1.5em;
@@ -51,13 +57,22 @@ li {
   margin-left: 20px;     /* indent */
 }
 
+/* Subtitles inside list items */
+li p {
+  margin-top: 5px;       /* small gap under link */
+  margin-bottom: 10px;   /* tighter bottom margin */
+  font-size: 0.9em;      /* smaller text */
+  color: #a0f0ff;        /* softer cyan for contrast */
+  text-align: left;
+}
+
 a {
-  display: inline-block; /* makes vertical margins apply */
+  display: inline-block; /* allows vertical margins */
   color: #00ffea;
   text-decoration: none;
   position: relative;
   transition: all 0.3s ease;
-  text-align: left;      /* force link text left */
+  text-align: left;
 }
 
 a::after {
