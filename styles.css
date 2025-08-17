@@ -1,7 +1,7 @@
 /* Reset & basic styling */
 * {
   box-sizing: border-box;
-  margin-block: 20px; /* vertical spacing for most elements */
+  margin-block: 15px; /* vertical spacing for most elements */
   padding: 0;
 }
 
@@ -68,7 +68,7 @@ li p {
 
 a {
   display: inline-block; /* allows vertical margins */
-  font-size: 1em;        /* keep anchor text consistent */
+  font-size: 1.5em;        /* keep anchor text consistent */
   color: #00ffea;
   text-decoration: none;
   position: relative;
